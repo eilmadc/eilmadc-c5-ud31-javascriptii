@@ -1,4 +1,9 @@
 /* Ejercicio 12 */
+const REGEX_FECHA = /^([0-2][0-9]|3[0-1])(\/|-)(0[1-9]|1[0-2])\2(\d{4})$/;
+const REGEX_EMAIL = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+const REGEX_NOMAPELS = /^[\w'\-,.][^0-9_!¡?÷?¿/\\+=@#$%ˆ&*(){}|~<>;:[\]]{2,}$/;
+
+
 //Funcion para obtener el texto del usuario
 getText = () => {
     return document.getElementById("field1").value;
@@ -26,7 +31,7 @@ validaFecha = () => {
     var arrayTexto = texto.split(" ");
     for (i = 0; i < arrayTexto.length; i++) {
         return (
-            /^([0-2][0-9]|3[0-1])(\/|-)(0[1-9]|1[0-2])\2(\d{4})$/.test(arrayTexto[i])
+            REGEX_FECHA.test(arrayTexto[i])
                 ? true : false);
     }
 }
@@ -51,7 +56,7 @@ validaEmail = () => {
     var arrayTexto = texto.split(" ");
     for (i = 0; i < arrayTexto.length; i++) {
         return (
-            /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/.test(arrayTexto[i])
+            REGEX_EMAIL.test(arrayTexto[i])
                 ? true : false);
     }
 }
@@ -77,7 +82,7 @@ validaRevertir = () => {
     document.getElementById("console").value += texto+"\n";
     var recalculo = '';
     //Comprobar si el texto contiene un email
-    if (/^[\w'\-,.][^0-9_!¡?÷?¿/\\+=@#$%ˆ&*(){}|~<>;:[\]]{2,}$/.test(arrayTexto)){
+    if (REGEX_NOMAPELS.test(arrayTexto)){
 
         var arrayTexto = texto.split(" ");
         
@@ -91,3 +96,4 @@ validaRevertir = () => {
         return recalculo;
 }
 }
+
