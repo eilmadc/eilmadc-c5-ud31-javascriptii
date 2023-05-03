@@ -1,0 +1,51 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main__container{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+}
+
+.main__container img{
+    width: 125px;
+    text-align: center;
+    align-items: center;
+}
+
+.main__container button{
+    width: 150px;
+    height: 75px;
+    font-size: x-large;
+}
+
+.main__container  h1{
+    font-size: xxx-large;
+    font-weight: bold;
+    color:darkred;
+}
+
+.main__container  h2{
+    font-size: xx-large;
+    font-weight: bold;
+    color:darkred;
+}
+
+.main__container label{
+    font-size: x-large;
+    
+}
+
+.main__container input{
+    width: 60px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.suma__container{
+    width: 40%;
+    display: block;
+    background-color:blanchedalmond;
+}
