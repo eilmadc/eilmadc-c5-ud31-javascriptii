@@ -3,6 +3,22 @@ body{
     background-color:rgb(10, 44, 10);
 }
 
+.exercise {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column
+}
+
+.exercise img{
+    width: 60%;
+}
+
+
+.exercise h6{
+    color: white;
+}
+
 .main__container{
     text-align: center;
     align-items: center;
@@ -16,6 +32,7 @@ body{
     text-align: center;
     align-items: center;
 }
+
 
 .main__container button{
     width: 150px;
@@ -43,9 +60,6 @@ body{
     color:darkred;
 }
 
-.main__container h6{
-    color: white;
-}
 
 .main__container label{
     font-size: x-large;    

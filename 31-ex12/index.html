@@ -12,7 +12,7 @@
       href="./css/Styles.css"
       media="screen"
     />
-    <title>UD 31 - Exercise 11</title>
+    <title>UD 31 - Exercise 12</title>
   </head>
   <noscript>
     <p>Bienvenido a Mi Web</p>
@@ -25,25 +25,29 @@
 
   <body>
     <div class="exercise">
-      <h6>UD 31 - Exercise 11</h6>
+      <h6>UD 31 - Exercise 12</h6>
       <img
-        src="./img/2023-05-03 12_39_23-BJTSS0322_5_ UD31 - JavaSript (II) - Brave.png"
+        src="./img/exercise12.png";
       />
+      <img
+      src="./img/exercise12_2.png";
+    />
     </div>
 
     <div class="main__container">
-      <h1>Tirar dados</h1>
-      <br /><br />
-      <img src="./img/dice-g0ce143284_640.png" />
-      <br /><br />
-      <button onclick="inicia()">Lanzar dados</button>
-      <br />
-      <div class="suma__container">
-        <h2>Suma de dados:</h2>
-        <label>Dado 1: <input id="dado1" /></label>
-        <label>Dado 2: <input id="dado2" /></label>
-        <label>Suma: <input id="suma" /></label>
-        <label>Coincidencias: <input id="coincidencia" /></label>
+      <div class="main__container__1">
+        <ul>
+          <li><label>Introduce texto: <input id="field1" /></label></li>
+          <li><button id="boton1" onclick="iniciaFecha()">Valida Fecha</button></li>
+          <li><button id="boton2" onclick="iniciaEmail()">Valida Direccion email</button></li>
+          <li><button id="boton3" onclick="reEscribir()">Reescribe Funcion</button></li>
+          <li><button id="boton4" onclick="iniciaRevertir()">Revertir</button></li>
+          <li><button id="boton5" onclick="eliminaEtiquetas()">Elimina Etiquetas</button></li>
+        </ul>
+      </div>
+      <div class="main__container__2">
+        <label>Console:</label>
+        <textarea id="console"></textarea>
       </div>
     </div>
   </body>
