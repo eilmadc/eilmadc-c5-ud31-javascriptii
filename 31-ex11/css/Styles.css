@@ -10,6 +10,7 @@ body{
     flex-flow: column;
 }
 
+
 .main__container img{
     width: 125px;
     text-align: center;
@@ -40,6 +41,10 @@ body{
     font-size: xx-large;
     font-weight: bold;
     color:darkred;
+}
+
+.main__container h6{
+    color: white;
 }
 
 .main__container label{
