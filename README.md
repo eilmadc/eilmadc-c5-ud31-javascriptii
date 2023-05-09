@@ -1,21 +1,20 @@
-#### eilmadc-c5-ud31-javascriptii
 # C5 ud31 Javascript(ii)
-## Exercise 11
-![image](https://user-images.githubusercontent.com/57563030/235880239-daca49e3-aea9-4f76-9b67-c43c397b4da6.png)
+## Exercise 11 --> [Open Exercise](https://eilmadc.github.io/eilmadc-c5-ud31-javascriptii/31-ex11/index.html)
+![image](https://github.com/eilmadc/eilmadc-c5-ud31-javascriptii/assets/57563030/00933142-e1bc-407f-8b3e-843f1b69e90b)
 
-## Exercise 12
-![image](https://user-images.githubusercontent.com/57563030/235880372-1a66160f-6546-4b01-b918-49412e7c0462.png)
-![image](https://user-images.githubusercontent.com/57563030/235880415-e6b1c020-bd2c-446a-9db7-1ccbdb5888ea.png)
+## Exercise 12 --> [Open Exercise](https://eilmadc.github.io/eilmadc-c5-ud31-javascriptii/31-ex12/index.html)
+![image](https://github.com/eilmadc/eilmadc-c5-ud31-javascriptii/assets/57563030/7ae3bc04-4ca0-4310-b5ff-e7812cdd7b0c)
+![image](https://github.com/eilmadc/eilmadc-c5-ud31-javascriptii/assets/57563030/1d248464-fdda-4765-ae11-98b716d239cb)
 
-## Exercise 13
-![image](https://user-images.githubusercontent.com/57563030/235880514-d6b51c6c-44a8-4ebb-942c-c60552aa2328.png)
+## Exercise 13 --> [Open Exercise](https://eilmadc.github.io/eilmadc-c5-ud31-javascriptii/31-ex13/index.html)
+![image](https://github.com/eilmadc/eilmadc-c5-ud31-javascriptii/assets/57563030/f3984a1e-db6f-460f-b4fe-31dbba30231a)
 
-## Exercise 14
-![image](https://user-images.githubusercontent.com/57563030/235880590-c49f01c6-717f-4418-80bd-1fc8563d7cfe.png)
-![image](https://user-images.githubusercontent.com/57563030/235880664-f81ec7bc-cc06-4688-a65c-b8890de84cf2.png)
+## Exercise 14 --> [Open Exercise](https://eilmadc.github.io/eilmadc-c5-ud31-javascriptii/31-ex14/index.html)
+![image](https://github.com/eilmadc/eilmadc-c5-ud31-javascriptii/assets/57563030/e93f8ba2-8d92-43e7-963e-d26b155718bd)
+![image](https://github.com/eilmadc/eilmadc-c5-ud31-javascriptii/assets/57563030/d85e3b7f-8003-40d1-84d7-b00d45ef7603)
 
-## Exercise 15
-![image](https://user-images.githubusercontent.com/57563030/235880735-4baaef6a-4b86-4420-9cd4-deb073daafd7.png)
+## Exercise 15 --> [Open Exercise](https://eilmadc.github.io/eilmadc-c5-ud31-javascriptii/31-ex15/index.html)
+![image](https://github.com/eilmadc/eilmadc-c5-ud31-javascriptii/assets/57563030/c7ee8476-a7a4-4b06-894b-580b7fbea134)
 
-## Exercise 16
-![image](https://user-images.githubusercontent.com/57563030/235880829-bb03b7f9-dc0a-4ea0-9223-14f7ecad5147.png)
+## Exercise 16 --> [Open Exercise](https://eilmadc.github.io/eilmadc-c5-ud31-javascriptii/31-ex16/index.html)
+![image](https://github.com/eilmadc/eilmadc-c5-ud31-javascriptii/assets/57563030/92d985fc-d3b6-4650-abb5-65b21ae3eb72)
