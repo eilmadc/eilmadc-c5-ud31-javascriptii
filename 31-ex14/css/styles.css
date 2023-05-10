@@ -44,15 +44,43 @@ body{
 
 .calculadora__container_1{
     padding: 25px;
+    padding-bottom: 10px;
 }
 
 .calculadora__container_1 input{
     margin-top: 5px;
-    margin-bottom: 30px;
-    width: 200px;
+    margin-bottom: 15px;
+    width: 240px;
     height: 25px;
     border:2px solid black;
 }
+.calculadora__container_1 th{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 200px;
+    height: 25px;
+}
+
+.calculadora__container_1 button{
+    color: red;
+    width: 75px;
+    height: 25px;
+}
 .calculadora__container_2{
-    
+    padding: 25px;
+    padding-top: 0px;
+}
+
+.calculadora__container_1 th{
+    margin-bottom: 5px;
+    width: 200px;
+    height: 25px;
+}
+
+.calculadora__container_2 button{
+    color: black;
+    margin-left: 3px;
+    margin-bottom: 15px;
+    width: 42px;
+    height: 25px;
 }
