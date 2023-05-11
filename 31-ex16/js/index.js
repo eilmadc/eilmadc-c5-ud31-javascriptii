@@ -14,8 +14,10 @@ initTimer = () => {
     //Obtiene los segundos
     seconds = today.getSeconds();
 
-    //Chequea la hora cada segundo 
+    //Control de formato al imprimir en pantalla
     seconds = checkTime(seconds);
+    minute = checkTime(minute);
+    hour = checkTimeHour(hour);
 
     //Muestra la hora hh:mm:ss en el elemento clock del html.
     document.getElementById('clock').innerHTML = hour + ':' + minute + ':' + seconds;
@@ -25,12 +27,23 @@ initTimer = () => {
 
 }
 
-//Formato al mostyrarlo eb pantalla
+//Formato al mostyrarlo eb pantalla : minutos y segundos
 checkTime = (i) => {
     if (i < 60) {
         i >= 10 ? i = i : i = "0" + i;
     }
     return i;
 }
+
+//Formato al mostyrarlo eb pantalla : horas
+checkTimeHour = (i) => {
+    
+    i >= 10 ? i = i : i = "0" + i;
+    
+    return i;
+}
+
+
+
 //Carga de la pagina
 window.onload = function () { initTimer(); }
