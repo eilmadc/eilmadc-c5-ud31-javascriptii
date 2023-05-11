@@ -1,0 +1,44 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:white;
+}
+
+.exercise {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    padding: 10px;
+    background-color: white;
+}
+
+.main__container{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-flow:column;
+}
+
+
+.main__container img{
+    width: 125px;
+    text-align: center;
+    align-items: center;
+}
+
+
+.main__container  h1{
+    font-size: xxx-large;
+    font-weight: bold;
+    color:black;
+}
+
+.clock{
+    font-family:system-ui;
+    width: 450px;
+    background-color: black;
+    font-size:99px;
+    color: greenyellow ;
+    text-align: center;
+    border: 15px outset gainsboro;
+}
