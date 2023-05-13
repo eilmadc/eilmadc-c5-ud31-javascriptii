@@ -18,7 +18,7 @@
     </p>
 </noscript>
 
-<body>
+<body onload="inic()">
 
     <div class="exercise">
         <h2>UD 31 - Exercise 14: Calculadora</h2>
@@ -31,41 +31,41 @@
 
                 <br>
                 <table class="cal_red">
-                    <th ><button id="but-ret" onclick="clickRetr()">Retr</button></th>
-                    <th ><button id="but-ce" onclick="clickCe()">CE</button></th>
-                    <th><button  id="but-c" onclick="clickC()">C</button></th>
+                    <th ><button type="button" value="Retr" class="btn" id="but-ret" onclick="clickRetr()">Retr</button></th>
+                    <th ><button type="button" value="CE" class="btn" id="but-ce" onclick="clearScreen()">CE</button></th>
+                    <th><button type="button" value="C" class="btn"  id="but-c" onclick="clearScreen()">C</button></th>
                 </table>
             </div>
 
             <div class="calculadora__container_2">
                 <table class="cal_red">
                     <tr>
-                        <th><button id="but-7" onclick="clickOperand('7')">7</button></th>
-                        <th><button id="but-8" onclick="clickOperand('8')">8</button></th>
-                        <th><button id="but-9" onclick="clickOperand('9')">9</button></th>
-                        <th><button id="but-/" onclick="clickOperator('/')">/</button></th>
-                        <th><button id="but-raiz" onclick="clickRaiz()">Raiz</button></th>
+                        <th><button type="button" value="7" class="btn" id="but-7" onclick="display('7')">7</button></th>
+                        <th><button type="button" value="8" class="btn" id="but-8" onclick="display('8')">8</button></th>
+                        <th><button type="button" value="9" class="btn" id="but-9" onclick="display('9')">9</button></th>
+                        <th><button type="button" value="/" class="operator" id="but-/" onclick="display('/')">/</button></th>
+                        <th><button type="button" value="Math.sqr;" class="operator" id="but-raiz" onclick="clickRaiz()">&#8730;</button></th>
                     </tr>
                     <tr>
-                        <th><button id="but-4" onclick="clickOperand('4')">4</button></th>
-                        <th><button id="but-5" onclick="clickOperand('5')">5</button></th>
-                        <th><button id="but-6" onclick="clickOperand('6')">6</button></th>
-                        <th><button id="but-mul" onclick="clickOperator('*')">*</button></th>
-                        <th><button id="but-per" onclick="clickOperator('%')">%</button></th>
+                        <th><button type="button" value="4" class="btn" id="but-4" onclick="display('4')">4</button></th>
+                        <th><button type="button" value="5" class="btn" id="but-5" onclick="display('5')">5</button></th>
+                        <th><button type="button" value="6" class="btn" id="but-6" onclick="display('6')">6</button></th>
+                        <th><button type="button" value="*" class="operator" id="but-mul" onclick="display('*')">*</button></th>
+                        <th><button type="button" value="%" class="operator" id="but-per" onclick="clickPercentage()">%</button></th>
                     </tr>
                     <tr>
-                        <th><button id="but-1" onclick="clickOperand('1')">1</button></th>
-                        <th><button id="but-2" onclick="clickOperand('2')">2</button></th>
-                        <th><button id="but-3" onclick="clickOperand('3')">3</button></th>
-                        <th><button id="but-min" onclick="clickOperantor('-')">-</button></th>
-                        <th><button id="but-x" onclick="clickOperator('1/x')">1/x</button></th>
+                        <th><button type="button" value="1" class="btn" id="but-1" onclick="display('1')">1</button></th>
+                        <th><button type="button" value="2" class="btn" id="but-2" onclick="display('2')">2</button></th>
+                        <th><button type="button" value="3" class="btn" id="but-3" onclick="display('3')">3</button></th>
+                        <th><button type="button" value="-" class="operator" id="but-min" onclick="display('-')">-</button></th>
+                        <th><button type="button" value="1/x" class="operator" id="but-x" onclick="clickInverse()">1/x</button></th>
                     </tr>
                     <tr>
-                        <th><button id="but-0" onclick="clickOperand('0')">0</button></th>
-                        <th><button id="but-mm" onclick="clickOperator('mm')">+/-</button></th>
-                        <th><button id="but-dot" onclick="clickOperator('.')">.</button></th>
-                        <th><button id="but-add" onclick="clickOperator('+')">+</button></th>
-                        <th><button id="but-equal" onclick="clickOperator('+')">+</button></th>
+                        <th><button type="button" value="0" class="btn" id="but-0" onclick="display('0')">0</button></th>
+                        <th><button type="button" value="mm" class="operator" id="but-mm" onclick="clickChange()">+/-</button></th>
+                        <th><button type="button" value="." class="operator" id="but-dot" onclick="display('.')">.</button></th>
+                        <th><button type="button" value="+" class="operator" id="but-add" onclick="display('+')">+</button></th>
+                        <th><button type="button" value="=" class="btn" id="but-equal" onclick="calc()">=</button></th>
                     </tr>
                 </table>
             </div>
